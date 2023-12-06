@@ -93,3 +93,17 @@ end
 ```
 
 Las instancias de F1 deberían responder a los métodos be_a_pain_in_the_butt, be_awesome, should_not be_nil y should_not para pasar las pruebas. Estos métodos deben estar definidos en la clase F1  ubicado en el archivo f1.rb que usualmente debe estar en la carpeta lib.
+
+## Pregunta:   Utilizando historias de usuario y Cucumber (8 puntos)
+
+Verificamos que que tengamos algunas películas en la base de datos.
+
+![Captura de pantalla de 2023-12-06 07-38-37](https://github.com/miguelvega/PracticaCalificada5/assets/124398378/cb2c79b4-c7b2-48b2-b930-bedd76a84a11)
+
+
+Al ejecutar 
+![Captura de pantalla de 2023-12-06 09-56-42](https://github.com/miguelvega/PracticaCalificada5/assets/124398378/88ca84e1-f635-4c63-b3dd-31890a14f7bb)bundle exec cucumber nos muestra lo siguiente:
+
+
+
+![Captura de pantalla de 2023-12-06 09-56-42](https://github.com/miguelvega/PracticaCalificada5/assets/124398378/88ca84e1-f635-4c63-b3dd-31890a14f7bb)
