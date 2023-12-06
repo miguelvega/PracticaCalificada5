@@ -92,4 +92,4 @@ end
 
 ```
 
-Las instancias de F1 deberían responder a los métodos be_a_pain_in_the_butt, be_awesome, should_not be_nil y should_not para pasar las pruebas. Estos métodos deben estar definidos en la clase F1  ubicado en eñ archivo f1.rb que usualmente debe estar en la carpeta lib.
+Las instancias de F1 deberían responder a los métodos be_a_pain_in_the_butt, be_awesome, should_not be_nil y should_not para pasar las pruebas. Estos métodos deben estar definidos en la clase F1  ubicado en el archivo f1.rb que usualmente debe estar en la carpeta lib.
