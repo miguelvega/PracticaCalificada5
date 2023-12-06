@@ -13,9 +13,7 @@ no hemos incorporado las semillas dadas en el archivo seeds.rb. Por ello ejecuta
    horrible. Modifica el método show del controlador para que, si se pide una película que no existe, el usuario sea redirigido a la vista
    Index con un mensaje más amigable explicando que no existe ninguna película con ese.
 
-   Para ello, necesitamos modificar en la accion show del controlador para que, si se pide una película que no existe, el usuario sea redirigido a la vista
-   Index con un mensaje.De tal manera que si el usuario introduce de manera manual un URI para ver (Show) una película que no existe controlemos
-   dicha excepcion dentro de con `rescue ActiveRecord::RecordNotFound`.
+Para ello, necesitamos modificar en la accion show del controlador para que, si se pide una película que no existe, el usuario sea redirigido a la vista Index con un mensaje.De tal manera que si el usuario introduce de manera manual un URI para ver (Show) una película que no existe controlemosdicha excepcion dentro de con `rescue ActiveRecord::RecordNotFound`.
 
    ```ruby
     def show
@@ -27,12 +25,12 @@ no hemos incorporado las semillas dadas en el archivo seeds.rb. Por ello ejecuta
      redirect_to movies_path
      return
      end
-  end
- ```
+   end
+```
 
-Con la linea `flash[:notice] = "No existe ninguna película con ese nombre."` nos mostrara el mensaje en la vista index
-gracias a  `redirect_to movies_path`.
+Con la linea flash[:notice] = "No existe ninguna película con ese nombre." nos mostrara el mensaje en la vista index
+gracias a  redirect_to movies_path.
+0d-4762-b7f9-ea8ea88ffd8d)
 
 
-![Captura de pantalla de 2023-12-06 08-03-02](https://github.com/miguelvega/PracticaCalificada5/assets/124398378/a0b5e1c1-dea5-40f0-965c-7c54fc20ca62)![Captura de pantalla de 2023-12-06 08-03-02](https://github.com/miguelvega/PracticaCalificada5/assets/124398378/39cc2eca-4752-4bcc-aabb-7a61f49bdf1b)![Captura de pantalla de 2023-12-06 08-03-02](https://github.com/miguelvega/PracticaCalificada5/assets/124398378/39cc2eca-4752-4bcc-aabb-7a61f49bdf1b)
-
+![Captura de pantalla de 2023-12-06 08-03-02](https://github.com/miguelvega/PracticaCalificada5/assets/124398378/3b2124a1-010d-4762-b7f9-ea8ea88ffd8d)
