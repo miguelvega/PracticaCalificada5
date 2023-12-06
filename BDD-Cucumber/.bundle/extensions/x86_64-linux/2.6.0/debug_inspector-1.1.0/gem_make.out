@@ -1,0 +1,15 @@
+current directory: /home/miguelubuntu/Escritorio/PC5_CC3S2/PracticaCalificada5-CC3S2/BDD-Cucumber/.bundle/gems/debug_inspector-1.1.0/ext/debug_inspector
+/home/miguelubuntu/.rbenv/versions/2.6.6/bin/ruby -I /home/miguelubuntu/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20231206-9187-1nisow0.rb extconf.rb
+creating Makefile
+
+current directory: /home/miguelubuntu/Escritorio/PC5_CC3S2/PracticaCalificada5-CC3S2/BDD-Cucumber/.bundle/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /home/miguelubuntu/Escritorio/PC5_CC3S2/PracticaCalificada5-CC3S2/BDD-Cucumber/.bundle/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /home/miguelubuntu/Escritorio/PC5_CC3S2/PracticaCalificada5-CC3S2/BDD-Cucumber/.bundle/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20231206-9187-5skiul

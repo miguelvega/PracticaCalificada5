@@ -1,0 +1,19 @@
+current directory: /home/miguelubuntu/Escritorio/PC5_CC3S2/PracticaCalificada5-CC3S2/BDD-Cucumber/.bundle/gems/byebug-11.1.3/ext/byebug
+/home/miguelubuntu/.rbenv/versions/2.6.6/bin/ruby -I /home/miguelubuntu/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20231206-9187-2ks7bv.rb extconf.rb
+creating Makefile
+
+current directory: /home/miguelubuntu/Escritorio/PC5_CC3S2/PracticaCalificada5-CC3S2/BDD-Cucumber/.bundle/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/miguelubuntu/Escritorio/PC5_CC3S2/PracticaCalificada5-CC3S2/BDD-Cucumber/.bundle/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/miguelubuntu/Escritorio/PC5_CC3S2/PracticaCalificada5-CC3S2/BDD-Cucumber/.bundle/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20231206-9187-mu56el/byebug
