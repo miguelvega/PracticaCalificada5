@@ -9,7 +9,7 @@
   <% @all_ratings.each do |rating| %>
     <div class="form-check  form-check-inline">
       <%= label_tag "ratings[#{rating}]", rating, class: 'form-check-label' %>
-      <%= check_box_tag "ratings[#{rating}]", '1', (@ratings_to_show_hash.include?(rating)),
+      <%= check_box_tag "ratings[#{rating}]", '2', (@ratings_to_show_hash.include?(rating)),
         class: 'form-check-input' %>
     </div>
   <% end %>

@@ -2,9 +2,14 @@ class MoviesController < ApplicationController
   before_action :force_index_redirect, only: [:index]
 
   def show
-    id = params[:id] # retrieve movie ID from URI route
-    @movie = Movie.find(id) # look up movie by unique ID
-    # will render app/views/movies/show.<extension> by default
+     id = params[:id]
+     begin
+     @movie = Movie.find(id)
+     rescue ActiveRecord::RecordNotFound
+     flash[:notice] = "No existe ninguna película con ese nombre."
+     redirect_to movies_path
+     return
+     end
   end
 
   def index
