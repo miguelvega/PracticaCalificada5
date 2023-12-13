@@ -6,7 +6,7 @@ class MoviesController < ApplicationController
      begin
      @movie = Movie.find(id)
      rescue ActiveRecord::RecordNotFound
-     flash[:notice] = "No existe ninguna película con ese nombre."
+     flash[:notice] = "No existe ninguna con ese nombre."
      redirect_to movies_path
      return
      end
